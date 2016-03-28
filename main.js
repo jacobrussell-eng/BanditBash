@@ -3,16 +3,12 @@ var questionData = [
   {
     "id": 1,
     "question": "You wake up in a Tavern and on you, you have 5 coins, a small dagger and a key. When you look around you see the bar, a shady person in the corner and the door.",
-// If you want to give a choice, add some answers like this
     "answers": {
-// The numbers must match another question
       "DRINK": 2,
       "TALK": 3,
       "LEAVE": 4
     }
   },
-// This is the end of the question
-
   {
     "id": 2,
     "question": "You walk over and the man there says a pint is 3 coins.",
@@ -40,15 +36,11 @@ var questionData = [
   },
   {
     "id": 5,
-    "question": "You take a chug and you begin to feel queasy and then you blackout. When you wake up you are in a prison cell in the Guards Tower. You see a Guard out through the bars, a barred of window and a metal pole on the floor.",
-    "answers": {
-    }
+    "question": "You take a chug and you begin to feel queasy and then you blackout. When you wake up you are in a prison cell in the Guards Tower. You see a Guard out through the bars, a barred of window and a metal pole on the floor."
   },
   {
     "id": 6,
-    "question": "Whilst the bartender has his backturned, You grab the glass and try to sneak it out. Before you get far another man at the bar ,of which is very beefy, says to you 'Oi! You gonna pay for that aren't ya boy? Without thinking you automatically reply with 'Back off!'. The man stands up to you fiercly.",
-    "answers": {
-    }
+    "question": "Whilst the bartender has his backturned, You grab the glass and try to sneak it out. Before you get far another man at the bar ,of which is very beefy, says to you 'Oi! You gonna pay for that aren't ya boy? Without thinking you automatically reply with 'Back off!'. The man stands up to you fiercly."
   },
   {
     "id": 7,
@@ -113,29 +105,9 @@ var questionData = [
 var displayQuestion = function (questionId) {
   var question = questionData[questionId];
   if (question) {
-    // Cool let's show the question then.
     if (question.answers && Object.keys(question.answers).length) {
-      // var questionText = question.question + "\n";
-      // for (var answer in question.answers) {
-      //   var i = Object.keys(question.answers).indexOf(answer)
-      //   // This sticks the answer options together
-      //   // For example: [SECOND], [THIRD], [FOURTH]
-      //   questionText += "["+answer+"]";
 
-      //   if (i !== (Object.keys(question.answers).length - 1)) {
-      //     // This let's us stick a comma after all but the last option
-      //     questionText += " or ";
-      //   }
-      // };
-      // var query = (prompt(questionText)||"").toUpperCase();
-
-
-
-      // var queryId = question.answers[query] - 1;
-      // displayQuestion(queryId);
-
-
-      var theQuestion = question.question;
+      var theQuestion = question.id + ': ' + question.question;
       var questionArea = document.querySelector('.question');
 
 
@@ -147,24 +119,19 @@ var displayQuestion = function (questionId) {
       buttonArea.innerHTML = '';
 
       var newButtonHTML = '';
-
+      var answerButton = document.createElement('button');
       for (var answer in theAnswers) {
-        var i = Object.keys(theAnswers).indexOf(answer)
-        var answerButton = document.createElement('button');
-        answerButton.innerText = answer;
-        answerButton.value = i;
-
-        answerButton.onclick = function () {
-          displayQuestion(i);
-        };
-
-
-        buttonArea.appendChild(answerButton);
+        var thisButton = answerButton.cloneNode(false);
+        thisButton.innerText = answer;
+        var thisValue = theAnswers[answer] - 1;
+        thisButton.setAttribute("onclick","displayQuestion("+thisValue+")", false);
+        buttonArea.appendChild(thisButton);
       }
 
     } else {
       // No answers needed, just show the text!
-      alert(question.question);
+      document.querySelector('.question').innerText = question.id + ': ' + question.question;
+      document.querySelector('.buttons').innerHTML = '';
     }
   } else {
     // That's uh... not a question. Awkward.
