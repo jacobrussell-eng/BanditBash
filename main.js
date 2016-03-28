@@ -61,19 +61,36 @@ var questionData = [
   },
   {
     "id": 8,
-    "question": "Sure, drink it. What could go wrong? oh, oh dear. You're struggling for oxygen and collapse. Your last sight was a dark mysterious figure laughing..."
+    "answers": {
+      "SHUFFLE": 15,
+      "KICK": 16
+    }
   },
   {
     "id": 9,
-    "question": "Screw that! Don't trust a stranger, especially when they offer you beverages. You leave to explore and keep your life. Good for you!"
+    "question": "You decline but as you walk off the man draws a Revolver and shoots you in the back and you collapse to the floor. You regain conciousness and you are in an Infirmary.",
+    "answers": {
+      "CALL": 17,
+      "DITCH": 18
+    }
   },
   {
     "id": 10,
-    "question": "You put in the key... You twist it... It snaps. GODDAMN! well, uh... It's a bit chilly out isn't it?"
+    "question": "You put in the key and the door clicks. As you enter everything is trashed. The backdoor is slammed down, there's a blood patch on the counter and a fire.",
+    "answers": {
+      "CHECK": 19,
+      "TEST": 20,
+      "TEND": 21
+    }
   },
   {
     "id": 11,
-    "question": "You open the trapdoor and jump in! hold on... you're still falling. It's there's no flo- SPLAT! Good One, Idiot."
+    "question": "As you open the trapdoor, you fall down into the pit. When you hit the ground, you're head clangs against a pile of ,surprisingly clean, bones and skulls. As you look around you see a red fiery orb, A shield with arrows lodged inside of it and a Mecidinal root.",
+    "answers": {
+      "ORB": 23,
+      "SHIELD": 24,
+      "PLANT": 25
+    }
   },
   {
     "id": 12,
