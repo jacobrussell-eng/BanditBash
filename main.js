@@ -150,7 +150,7 @@ var displayQuestion = function (questionId) {
     }
   } else {
     // That's uh... not a question. Awkward.
-    alert("Uh, that wasn't an option...");
+    alert("That's not an option Wary Traveller...");
   }
 };
 
