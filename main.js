@@ -61,6 +61,7 @@ var questionData = [
   },
   {
     "id": 8,
+    "question": "Sure, why not. Just listen to the creepy guy with the random drink. Anyways you take a gulp and Pass out. Shoulda seen that coming. You wake up in a Dark room and your tied to a chair with rope. Around the room are Flame torches and on the floor is a switch.",
     "answers": {
       "SHUFFLE": 15,
       "KICK": 16
