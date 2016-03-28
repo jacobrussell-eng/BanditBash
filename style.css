@@ -1,0 +1,43 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  background: #000;
+}
+.screen {
+  width: 1000px;
+  height: 600px;
+  background: red;
+  margin: auto;
+  text-align: left;
+}
+
+.picture-holder {
+  width: 60%;
+  background: blue;
+}
+.question-holder {
+  width: 40%;
+  background: green;
+}
+
+.picture-holder,
+.question-holder {
+  height: 80%;
+  float: left;
+}
+
+.inventory-holder {
+  clear: both;
+  width: 100%;
+  height: 20%;
+  background: yellow;
+  display: block;
+}
+
+.inner {
+  padding: 20px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
