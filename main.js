@@ -107,7 +107,7 @@ var displayQuestion = function (questionId) {
   if (question) {
     if (question.answers && Object.keys(question.answers).length) {
 
-      var theQuestion = question.id + ': ' + question.question;
+      var theQuestion = question.question;
       var questionArea = document.querySelector('.question');
 
 
@@ -130,7 +130,7 @@ var displayQuestion = function (questionId) {
 
     } else {
       // No answers needed, just show the text!
-      document.querySelector('.question').innerText = question.id + ': ' + question.question;
+      document.querySelector('.question').innerText = question.question;
       document.querySelector('.buttons').innerHTML = '';
     }
   } else {
