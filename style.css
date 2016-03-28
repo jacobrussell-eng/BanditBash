@@ -2,6 +2,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   text-align: center;
   background: #000;
+  background-image: url(images/bricks.jpg);
 }
 .screen {
   width: 1000px;
