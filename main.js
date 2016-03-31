@@ -1,7 +1,15 @@
 var questionData = [
   {
+    "id": 0,
+    "question": "Hello Traveller! \n\nWelcome to Bandit Bash. \n\nI hope you fare well in this cruel town!",
+    "answers": {
+      "BEGIN": 1
+    }
+  },
+  {
     "id": 1,
     "question": "You wake up in a Tavern and on you, you have 5 coins, a small dagger and a key. When you look around you see the bar, a shady person in the corner and the door.",
+    "picture": "tavern.jpg",
     "answers": {
       "DRINK": 2,
       "TALK": 3,
@@ -163,7 +171,7 @@ var displayQuestion = function (questionId) {
       for (var answer in theAnswers) {
         var thisButton = answerButton.cloneNode(false);
         thisButton.innerText = answer;
-        var thisValue = theAnswers[answer] - 1;
+        var thisValue = theAnswers[answer];
         thisButton.setAttribute("onclick","displayQuestion("+thisValue+")", false);
         buttonArea.appendChild(thisButton);
       }
@@ -172,6 +180,15 @@ var displayQuestion = function (questionId) {
       // No answers needed, just show the text!
       document.querySelector('.question').innerText = question.question;
       document.querySelector('.buttons').innerHTML = '';
+    }
+
+    // Stuff to always do...
+    if (question.picture && question.picture.length) {
+      var pictureEl = document.querySelector('#picture');
+      var newSrc = "images/" + question.picture;
+
+      pictureEl.src = newSrc;
+
     }
   } else {
     // That's uh... not a question. Awkward.
