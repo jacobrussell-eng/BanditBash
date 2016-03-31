@@ -61,6 +61,9 @@ body {
   font-size: 18px;
   cursor: url(images/cursor.gif), default;
 }
+.inventory-holder h2 {
+  margin-bottom: 20px;
+}
 .inventory-icons img {
   height: 50px;
   width: auto;
