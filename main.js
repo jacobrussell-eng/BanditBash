@@ -30,7 +30,6 @@ var displayQuestion = function (questionId) {
     if (question.inventory) {
       if (question.inventory.coins) {
         if (playerInventory.coins === 0) {
-          document.querySelector('.notice').innerText = 'Not enough coins!';
           // If not enough coins, get the fudge out of dodge.
           return;
         }
