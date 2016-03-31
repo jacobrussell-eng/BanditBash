@@ -39,7 +39,7 @@ body {
   padding: 20px;
 }
 
-img {
+#Tavern {
   max-width: 100%;
   height: auto;
 }
@@ -60,4 +60,9 @@ img {
   margin-right: 10px;
   font-size: 18px;
   cursor: url(images/cursor.gif), default;
+}
+
+.Inv {
+  height: 50px;
+  width: 50px;
 }
