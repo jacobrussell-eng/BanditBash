@@ -144,12 +144,51 @@ var questionData = [
       "PLAY": 42
     }
   },
+  {
+    "id": 17,
+    "question": "The canyon... before dragon",
+    "answers": {
+      "HELP THEM": 20
+    }
+  },
+  {
+    "id": 18,
+    "question": "The canyon... before ogre",
+    "answers": {
+      "HELP THEM": 21
+    }
+  },
+  {
+    "id": 19,
+    "question": "The canyon... before hell hound",
+    "answers": {
+      "HELP THEM": 22
+    }
+  },
+  {
+    "id": 20,
+    "question": "dragon",
+    "picture": "Dragon.jpg"
+  },
+  {
+    "id": 21,
+    "question": "ogre",
+    "picture": "Ogre.jpg"
+  },
+  {
+    "id": 22,
+    "question": "hell hound",
+    "picture": "hellhound.jpg"
+  },
+
+
+
   // Example purchasing question
   // Sword...
   {
     "id": 31,
     "question": "You have purchased the sword.",
-    "auto_navigate": 12,
+    "auto_navigate": 17,
     "inventory": {
       "sword": true,
       "coins": -5
@@ -159,7 +198,7 @@ var questionData = [
   {
     "id": 32,
     "question": "You have purchased the axe.",
-    "auto_navigate": 12,
+    "auto_navigate": 18,
     "inventory": {
       "axe": true,
       "coins": -5
@@ -169,7 +208,7 @@ var questionData = [
   {
     "id": 33,
     "question": "You have purchased the staff.",
-    "auto_navigate": 12,
+    "auto_navigate": 19,
     "inventory": {
       "staff": true,
       "coins": -5
