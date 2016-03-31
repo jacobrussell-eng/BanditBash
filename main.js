@@ -1,11 +1,7 @@
 var questionData = [
   {
     "id": 0,
-<<<<<<< HEAD
     "question": "Hello Traveller! \n\nWelcome to Bandit Bash. \n\nCan you fend off the beasts that lurk in Kragnar? \n\nAre you wise enough to learn the strongest spells? \n\nDo you have the skill to be the stealthiest assassin ever known? \n\nWill you become a \nSoldier, Wizard or Thief? \n\nTest your luck and find out...",
-=======
-    "question": "Hello Traveller! \n\nWelcome to Bandit Bash. \n\nCan you fend off the beasts that lurk in Kragnar? \n\nAre you wise enough to learn the strongest spells? \n\nDo you have the skill to be the stealthiest assassin ever known? \n\nSo, are you a \nSoldier, Wizard or Thief? \n\nTest your luck and find out...",
->>>>>>> 0443b0bf6ea3200453a85e5efe12f119660cb0ec
     "answers": {
       "BEGIN": 1
     }
