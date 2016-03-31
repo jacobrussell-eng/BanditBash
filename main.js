@@ -1,5 +1,4 @@
 var questionData = [
-// This is one question
   {
     "id": 1,
     "question": "You wake up in a Tavern and on you, you have 5 coins, a small dagger and a key. When you look around you see the bar, a shady person in the corner and the door.",
