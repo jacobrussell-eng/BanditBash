@@ -28,6 +28,14 @@ var displayQuestion = function (questionId) {
 
     // Update the inventory
     if (question.inventory) {
+      if (question.inventory.coins) {
+        if (playerInventory.coins === 0) {
+          // If not enough coins, get the fudge out of dodge.
+          return;
+        }
+        playerInventory.coins += question.inventory.coins;
+
+      }
       if (question.inventory.sword) {
         playerInventory.sword = true;
         document.querySelector('.inventory .sword').classList.add("show");
@@ -39,9 +47,6 @@ var displayQuestion = function (questionId) {
       if (question.inventory.staff) {
         playerInventory.staff = true;
         document.querySelector('.inventory .staff').classList.add("show");
-      }
-      if (question.inventory.coins) {
-        playerInventory.coins += question.inventory.coins;
       }
       // console.log("Updated inventory", playerInventory);
     }
