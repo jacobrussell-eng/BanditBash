@@ -1,6 +1,6 @@
 var playerInventory = {
   "sword": false,
-  "key": false,
+  "key": true,
   "axe": false,
   "staff": false,
   "coins": 5
