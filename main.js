@@ -1,8 +1,8 @@
 var playerInventory = {
   "sword": false,
-  "key": true,
   "axe": false,
   "staff": false,
+  "key": true,
   "coins": 5
 };
 // Don't edit below here! :)
@@ -30,11 +30,13 @@ var displayQuestion = function (questionId) {
     if (question.inventory) {
       if (question.inventory.coins) {
         if (playerInventory.coins === 0) {
+          document.querySelector('.notice').innerText = 'Not enough coins!';
           // If not enough coins, get the fudge out of dodge.
           return;
         }
         playerInventory.coins += question.inventory.coins;
 
+        document.querySelector('.inventory div span').innerText = playerInventory.coins;
       }
       if (question.inventory.sword) {
         playerInventory.sword = true;
