@@ -1,7 +1,11 @@
 var questionData = [
   {
     "id": 0,
-    "question": "Hello Traveller! \n\nWelcome to Bandit Bash. \n\nCan you fend off the beasts that lurk in Kragnar? \n\nAre you wise enough to learn the strongest spells? \n\nDo you have the skill to be the stealthiest assassin ever known? \n\nFind you're destiny in the quest of Honour. \n\nSo, are you a \nSoldier, Wizard or Thief? \n\nTest your luck and find out...",
+<<<<<<< HEAD
+    "question": "Hello Traveller! \n\nWelcome to Bandit Bash. \n\nCan you fend off the beasts that lurk in Kragnar? \n\nAre you wise enough to learn the strongest spells? \n\nDo you have the skill to be the stealthiest assassin ever known? \n\nSo, are you a \nSoldier, Wizard or Thief? \n\nTest your luck and find out...",
+=======
+    "question": "Can you take on the beasts that lurk in the land of Parfucia?\n\nAre you Wise enough to learn the strongest spells?\n\nOr do you have the skill to be the stealthiest assassin ever known?\n\nFind your destiny in the quest of Honour\n\n\nSo, are you a Soldier, Wizard or Thief?\n\nTest your luck and may the best fighter win...",
+>>>>>>> origin/gh-pages
     "answers": {
       "BEGIN": 1
     }
