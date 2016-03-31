@@ -78,10 +78,10 @@ var questionData = [
   },
   {
     "id": 9,
-    "question": "You decline but as you walk off the man draws a Revolver and shoots you in the back and you collapse to the floor. You regain conciousness and you are in an Infirmary.",
+    "question": "You enter a street and see a house that looks familiar. Try the...",
     "answers": {
-      "CALL": 17,
-      "DITCH": 18
+      "DOOR": 10,
+      "HATCH": 11
     }
   },
   {
@@ -145,50 +145,42 @@ var questionData = [
     }
   },
   {
-    "id": 17,
-    "question": "The canyon... before dragon",
+    "id": 43,
+    "question": "After you have bought your weapon, the Blacksmith says to you 'Hey, If you wanna test out your new weapon, I heard they're hosting a training tournament down at the canyon.' The instinct inside of you automatically is on the case. You rush down there with high hopes and glee. But when you arrive, they are floods of civilians sprinting away. Soon you realise... you have encountered an Ice Dragon. Your hero part of you comes into play and plans the strategy. Do you hit in the...",
+    "picture": "Dragon.jpg",
     "answers": {
-      "HELP THEM": 20
+      "NECK": 46,
+      "EYE": 47,
+      "BELLY": 48
     }
   },
   {
-    "id": 18,
-    "question": "The canyon... before ogre",
+    "id": 44,
+    "question": "After you have bought your weapon, the Blacksmith says to you 'Hey, If you wanna test out your new weapon, I heard they're hosting a training tournament down at the canyon.' The instinct inside of you automatically is on the case. You rush down there with high hopes and glee. But when you arrive, they are floods of civilians sprinting away. Soon you realise... you have encountered an Murderous Ogre. You hastily decide to attack by...",
+    "picture": "Ogre.jpg",
     "answers": {
-      "HELP THEM": 21
+      "LEG": 49,
+      "CLIMB": 50,
+      "TAUNT": 51
     }
   },
   {
-    "id": 19,
-    "question": "The canyon... before hell hound",
+    "id": 45,
+    "question": "After you have bought your weapon, the Blacksmith says to you 'Hey, If you wanna test out your new weapon, I heard they're hosting a training tournament down at the canyon.' The instinct inside of you automatically is on the case. You rush down there with high hopes and glee. But when you arrive, they are floods of civilians sprinting away. Soon you realise... you have encountered a Wild Hell Hound. Without thought you battle by...",
+    "picture": "hellhound.jpg",
     "answers": {
-      "HELP THEM": 22
-    }
-  },
-  {
-    "id": 20,
-    "question": "dragon",
-    "picture": "Dragon.jpg"
-  },
-  {
-    "id": 21,
-    "question": "ogre",
-    "picture": "Ogre.jpg"
-  },
-  {
-    "id": 22,
-    "question": "hell hound",
-    "picture": "hellhound.jpg"
-  },
-
+      "MOUTH": 49,
+      "FLIP": 50,
+      "BURST" 51
+    },
 
 
   // Example purchasing question
   // Sword...
   {
     "id": 31,
-    "question": "You have purchased the sword.",
-    "auto_navigate": 17,
+    "question": "You have purchased the Sword.",
+    "auto_navigate": 43,
     "inventory": {
       "sword": true,
       "coins": -5
@@ -197,8 +189,8 @@ var questionData = [
   // Axe...
   {
     "id": 32,
-    "question": "You have purchased the axe.",
-    "auto_navigate": 18,
+    "question": "You have purchased the Axe.",
+    "auto_navigate": 44,
     "inventory": {
       "axe": true,
       "coins": -5
@@ -207,11 +199,31 @@ var questionData = [
   // Staff...
   {
     "id": 33,
-    "question": "You have purchased the staff.",
-    "auto_navigate": 19,
+    "question": "You have purchased the Staff.",
+    "auto_navigate": 45,
     "inventory": {
       "staff": true,
       "coins": -5
     }
-  }
+  },
+  {
+    "id": 19,
+    "question": "You head over to the broken door and see the glass shards everywhere. Out in the garden is a tall, buff man with a Cavalier's blade. Behind you is sharpened pickaxe. You can...",
+    "picture": "garden.gif",
+    "answers": {
+      "DISARM": 52,
+      "CHARGE": 53,
+      "THROW": 54
+    }
+  },
+  {
+    "id": 20,
+    "question": "You head over to the counter and look at the blood. Suddenly, you hear a bang come from the Bedroom out back. You quickly draw a rifle from behind the counter and walk over. Your choice...",
+    "picture": "",
+    "answers": {
+      "WARNING": 55,
+      "WINDOW": 56,
+      "WOUND": 57,
+    }
+  },
 ];
