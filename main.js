@@ -1,7 +1,7 @@
 var questionData = [
   {
     "id": 0,
-    "question": "Hello Traveller! \n\nWelcome to Bandit Bash. \n\nI hope you fare well in this cruel town!",
+    "question": "Hello Traveller! \n\nWelcome to Bandit Bash. \n\nCan you fend off the beasts that lurk in Kragnar? \n\nAre you wise enough to learn the strongest spells? \n\nDo you have the skill to be the stealthiest assassin ever known? \n\nFind you're destiny in the quest of Honour. \n\nSo, are you a \nSoldier, Wizard or Thief? \n\nTest your luck and find out...",
     "answers": {
       "BEGIN": 1
     }
