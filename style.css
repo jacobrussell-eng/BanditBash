@@ -62,10 +62,30 @@ body {
   font-size: 18px;
   cursor: url(images/cursor.gif), default;
 }
+
 .inventory-holder h2 {
   margin-bottom: 20px;
 }
-.inventory-icons img {
-  height: 50px;
+.inventory {
+  height: 72px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.inventory img {
+  height: 100%;
   width: auto;
+  display: none;
+  float: left;
+}
+.inventory img.show {
+  display: block;
+}
+.inventory div {
+  float: left;
+  position: relative;
+}
+.inventory div span {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
