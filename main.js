@@ -141,6 +141,8 @@ var questionData = [
 // Don't edit below here! :)
 
 var displayQuestion = function (questionId) {
+  'use strict';
+
   var question = questionData[questionId];
   if (question) {
     if (question.answers && Object.keys(question.answers).length) {
