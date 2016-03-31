@@ -37,10 +37,19 @@ var questionData = [
   {
     "id": 5,
     "question": "You take a chug and you begin to feel queasy and then you blackout. When you wake up you are in a prison cell in the Guards Tower. You see a Guard out through the bars, a barred of window and a metal pole on the floor."
+    "answers": {
+      "TRICK": 26,
+      "LOOK": 27,
+      "ESCAPE": 28
+    }
   },
   {
     "id": 6,
     "question": "Whilst the bartender has his backturned, You grab the glass and try to sneak it out. Before you get far another man at the bar ,of which is very beefy, says to you 'Oi! You gonna pay for that aren't ya boy? Without thinking you automatically reply with 'Back off!'. The man stands up to you fiercly."
+    "answers": {
+      "FIGHT": 29,
+      "PLEAD": 30
+    }
   },
   {
     "id": 7,
@@ -87,21 +96,52 @@ var questionData = [
   },
   {
     "id": 12,
-    "question": "blacksmith..."
+    "question": "You enter the Blacksmith's and head towards the till. 'All items on sale, for example, our best sellers are all 5 coins each,' You have the option..."
+    "answers": {
+      "SWORD": 31,
+      "AXE": 32,
+      "STAFF": 33
+    }
   },
   {
     "id": 13,
-    "question": "butcher..."
+    "question": "You walk into the Butcher's and you are greeted by a bunch of jolly people in a group. As you walk by you nod and then talk to the Butcher. 'Alright lad, any piece of meat is 4 coins' You see in the background a 'LOOKING FOR HELP' poster. 'Oh, that. our animals out back get getting attacked by a rabid wolf. We could do with a strong guy like you. I'll pay you 10 coins'"
+    "answers": {
+      "MEAT": 34,
+      "HELP": 35
+    }
   },
   {
     "id": 14,
-    "question": "library..."
+    "question": "You enter a well lit and calm library and search through the shelves. 3 subjects interset you..."
+    "answers": {
+      "COMBAT": 36,
+      "SPELLS": 37,
+      "BEASTS": 38
+    }
+  },
+  {
+    "id": 15,
+    "question": "Precariously, you hop over towards one of the torches on the wall a light the ropes around your hands on fire. Once they've burnt through, you bang on the door and demand answers. A hooded dude like the one you saw in the Tavern approaches you and says 'Wow, you got out, follow me...'"
+    "answers": {
+      "FOLLOW": 39,
+      "HIT": 40
+    }
+  },
+  {
+    "id": 16,
+    "question": "You swing your leg furiously multiple times and eventually it clicks. You fall through the floor and down a funnel. You land in a pit of corpses and bones. Over in the corner is a vicious rotten ghoul gnawing on a corpse."
+    "answers": {
+      "SPLINTER": 41,
+      "PLAY": 42,
+      
+    }
   }
 ];
 
 
 // Don't edit below here! :)
-
+
 var displayQuestion = function (questionId) {
   var question = questionData[questionId];
   if (question) {
