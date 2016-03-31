@@ -61,8 +61,7 @@ body {
   font-size: 18px;
   cursor: url(images/cursor.gif), default;
 }
-
-.Inv {
+.inventory-icons img {
   height: 50px;
-  width: 50px;
+  width: auto;
 }
