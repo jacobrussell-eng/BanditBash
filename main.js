@@ -61,6 +61,7 @@ var questionData = [
   {
     "id": 7,
     "question": "You decide that the price is Outrageous! 'That's ridiculous, come on, I have no memory and I just woke up, can't we make a deal?' The bartender leans towards you and stares at you dead in the eye. He says 'GET... OUT...' you leave out the back entrance... Where do you go?",
+    "picture": "alley.jpg",
     "answers": {
       "BLACKSMITH": 12,
       "BUTCHER": 13,
