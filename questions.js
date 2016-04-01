@@ -218,7 +218,7 @@ var questionData = [
   },
   {
     "id": 20,
-    "question": "You head over to the counter and look at the blood. Suddenly, you hear a bang come from the Bedroom out back. You quickly draw a rifle from behind the counter and walk over. Your choice...",
+    "question": "You head over to the counter and look at the blood. Suddenly, you hear a bang come from the Bedroom out back. You quickly draw a revolver from behind the counter and walk over. Your choice...",
     "picture": "",
     "answers": {
       "WARNING": 55,

@@ -95,3 +95,9 @@ body {
   left: 0;
   top: 0;
 }
+
+.Restart {
+  text-align: right;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 30px;
+}
