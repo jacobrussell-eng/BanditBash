@@ -171,9 +171,9 @@ var questionData = [
     "answers": {
       "MOUTH": 49,
       "FLIP": 50,
-      "BURST" 51
-    },
-
+      "BURST": 51
+    }
+  },
 
   // Example purchasing question
   // Sword...
@@ -223,7 +223,7 @@ var questionData = [
     "answers": {
       "WARNING": 55,
       "WINDOW": 56,
-      "WOUND": 57,
+      "WOUND": 57
     }
-  },
+  }
 ];
