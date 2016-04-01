@@ -3,7 +3,10 @@ var playerInventory = {
   "axe": false,
   "staff": false,
   "key": true,
-  "coins": 5
+  "meat": false,
+  "dragonEye": false,
+  "coins": 5,
+  "knife": true
 };
 // Don't edit below here! :)
 
