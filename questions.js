@@ -343,23 +343,23 @@ var questionData = [
   },
   {
     "id": 36,
-    "question": "You read some books on COMBAT and learn some fighting techniques and moves. After months of reading and practising, you hear that a fighting legend is in town and 'Looking for an Apprentice. Anyone that can beat him in a duel will be his new sidekick.' You see what it's all about and enter. \n\nOnce it's your turn you prepare to duel. Both of you dash towards each other and swing a kick. It's about to go down. Fists and kicks and blocks and flips getting traded. You uppercut him, he dunks you to the ground. Your performance is formidable. All other contestants would have been out by now. You're getting beat quite hard but you stay up. Master Feren Chau is barely standing. He uses his final hit, No-one in his entire career has lasted past his Chau-Smash. He swings, Swings hard... You stop it and the crowd go silent... You trip and punch him and he's defeated. The crowd go insane. Feren stands up and shakes your hand. 'You, my friend are more then worthy, Congrats, You're In.",
+    "question": "You read some books on COMBAT and learn some fighting techniques and moves. After months of reading and practising, you hear that a fighting legend is in town and 'Looking for an Apprentice. Anyone that can beat him in a duel will be his new sidekick.' You see what it's all about and enter. ",
     "picture": "Monk.jpg",
     "answers": {
-      "FINISH": 92
+      "FIGHT": 92
     }
   },
   {
     "id": 37,
-    "question": "You read some books on SPELLS and learn lots of summons and casting. After months of reading and practising, you travel out far and in your journey you discover a castle. You wander the rooms and floors, hunting for something of worth Until you find the main hall. There's tons of statues, drawings and scribbles everywhere. Eventually you find a Woman levitating and she says to you 'I've been watching you for a while now... You have shown intense concentration and dedication. I will give you the chance to become a master summoner, but first you must challenge me, Archmage Dakota Skullfort.' \n\nThe 2 of you prepare and launch energy blasts at each other. The fight is filled with spirit creatures, elemental spells, freezing, lightning blots being thrown at both of you. 'You have lasted long, but you aren't a match to my Necromancy...' Then Dakota furiously cackles whilst resurrecting dead warriors and they charge at you. They're armed with swords and blades. You're firing blasts and casting flames. Finally, you begin to use an Aincent Spell which is unknown to you if it even works. Dakota recognizes it instantly. 'No, That's not Fair' She begins trembling and casting random abilities in a flurry of Panic. The room fill with light as you summon a giant lightning beast that slams the ground and creates a large explosion, entirely destroying the castle. Dakota arises from the rubble, beaten, and hands you a mage's staff. 'Well Done, you've earned this, the Crystal Staff. I hope to see you again.'",
+    "question": "You read some books on SPELLS and learn lots of summons and casting. After months of reading and practising, you travel out far and in your journey you discover a castle. You wander the rooms and floors, hunting for something of worth Until you find the main hall. There's tons of statues, drawings and scribbles everywhere. Eventually you find a Woman levitating and she says to you 'I've been watching you for a while now... You have shown intense concentration and dedication. I will give you the chance to become a master summoner, but first you must challenge me, Archmage Dakota Skullfort.'",
     "picture": "Archmage.jpg",
     "answers": {
-      "FINISH": 92
+      "FIGHT": 93
     }
   },
   {
     "id": 38,
-    "question": "You read some books on BEASTS and learn differnt strengths and weaknesses. After months of reading and practising, You travel to another land nearby called Taligoth and meet some people there. Taligoth is famous for the Champion's Arena, created by Paladin Malik Roughclaw, A very well known Soldier and Fighter. Every 10 years they host a competition called 'The Champion's Belt' where a group of fighters will enter and contest to win the belt, but the winner is challenged by Malik for thr belt. You are Determined. Sure it's never been won before but you are different. You can do this. \n\nYou enter the competition with your Griffin, Tyrell, and go through rounds of fighters and beasts and successfully win all of the rounds with a breeze. But now it's the final round. The most important part. Malik Roughclaw. The Big Deal. He enters the arena from the shadows with his Frost Lynx. 'LET THE BATTLE, COMMENCE!' Tyrell dahes into the sky, trying to flank but is instantly frozen but the Frost Lynx and falls out of the air. Meanwhile, you are charging towards Malik and waving your Gold Battle Axe around, but to no Avail. Malik is craftily dodging and ducking past all swings and countering them. You get the idea to trick him, fake swing and get rough. You go fists swinging, smashing Malik hard. He has no clue what to do. The Lynx tries to get involved but you twist the Frost Lynx and use it as a weapon against Malik. He calls apon a Beam of Light, a last resort. The energy crashes down from the skies, wrecking the Terrain. But Malik doesn't know that you have prepared for this, You are Ready. You get yourself in a special position and take the hit. It's unbelieveable. Absorbing so much energy would kill a regular person. You are not regular. You reuse the energy and blast all of it back at Malik. You practically obliverate him. On his last breath he says the words. 'You, with no doubt, are the Champion. A better Champion than I was. Well Fought...'",
+    "question": "You read some books on BEASTS and learn differnt strengths and weaknesses. After months of reading and practising, You travel to another land nearby called Taligoth and meet some people there. Taligoth is famous for the Champion's Arena, created by Paladin Malik Roughclaw, A very well known Soldier and Fighter. Every 10 years they host a competition called 'The Champion's Belt' where a group of fighters will enter and contest to win the belt, but the winner is challenged by Malik for thr belt. You are Determined. Sure it's never been won before but you are different. You can do this.",
     "picture": "paladin.jpg",
     "answers": {
       "FINISH": 92
@@ -445,6 +445,48 @@ var questionData = [
     "question": "'HEY YOU BIG GREEN IMBECILE! YEAH YOU!' Your insulting chants grabs his attention and he paces towards you. He's mad. Real mad. He Probably didn't understand what you said but he still doesn't like you. Unfortunately, you've now been pushed to the edge, and he's directly in front of you. Out of random thought, you slam the ground with your axe and the ground around the Ogre cracks, aswell as yours. You shout 'YOU! SHALL NOT! LIVE!', then you push away and your mini rock island floats off and the large cracked rock that the Ogre is on slides and he falls down to his death. You then learn the arts of elemental magic and use it for good.",
     "answers": {
       "FINISH": 92
+    }
+  },
+  {
+    "id": 52,
+    "question": "The Hell Hound roars furiously at you, and it's mouth is just wide enough to lodge the staff down it's throat. It shakes about and you lose your grip on the staff, but it's still int the Hell Hound's neck. Then you realise, this is even better. You hop off of a rock beside you a land on the end of the staff, further propelling it down the throat. After you flip upside down, grasp hold of the handle and cast a Thunder blast inside of the Hell Hound and the Hound EXPLODES. KABOOM! 'Shoulda kept ya mouth shut...' And you slowly walk off into the distance. Later on down the road, you learn fighting techniques with the staff and become a Well-Trained Monk.",
+    "answers": {
+      "FINISH": 100
+    }
+  },
+  {
+    "id": 53,
+    "question": "At first, the 2 of you just stare at each other. Stone Cold. The Hell Hound proceeds to pounce at you, but you catch one of it's legs with the staff and flip the Hound onto it's back, Defenseless. As you lift the staff, It charges with dark magic, purple energy coiling around the hilt. Your final blow, as you strike it Downwards into the Hell Hound's chest and corrupt it's heart. Almost like a Warlock. You are now striving with Dark Magic and have a craving Blood Lust.",
+    "answers": {
+      "FINISH": 100
+    }
+  },
+  {
+    "id": 54,
+    "question": "Showdown time. The fight to the death. The Hell Hound makes the first move and spits magma at you which you deflect, followed by a strike across it's face. There's a lot of turn taking until your body starts to feel cool, Your eyes turn really light blue. Your body feels fresh. Next you drive the Staff into the rocky ground and a powerful burst of Water erupts from underneath the Hell Hound. The gush tears through the Hell Hound's body as water is the strongest magic against pyrotechnics. You're a Successor, A Victor, A Hydrocaster.",
+    "answers": {
+      "FINISH": 100
+    }
+  },
+  {
+    "id": 92,
+    "question": "Once it's your turn you prepare to duel. Both of you dash towards each other and swing a kick. It's about to go down. Fists and kicks and blocks and flips getting traded. You uppercut him, he dunks you to the ground. Your performance is formidable. All other contestants would have been out by now. You're getting beat quite hard but you stay up. Master Feren Chau is barely standing. He uses his final hit, No-one in his entire career has lasted past his Chau-Smash. He swings, Swings hard... You stop it and the crowd go silent... You trip and punch him and he's defeated. The crowd go insane. Feren stands up and shakes your hand. 'You, my friend are more then worthy, Congrats, You're In.",
+    "answers": {
+      "FINISH": 100
+    }
+  },
+  {
+    "id": 93,
+    "question": "The 2 of you prepare and launch energy blasts at each other. The fight is filled with spirit creatures, elemental spells, freezing, lightning blots being thrown at both of you. 'You have lasted long, but you aren't a match to my Necromancy...' Then Dakota furiously cackles whilst resurrecting dead warriors and they charge at you. They're armed with swords and blades. You're firing blasts and casting flames. Finally, you begin to use an Aincent Spell which is unknown to you if it even works. Dakota recognizes it instantly. 'No, That's not Fair' She begins trembling and casting random abilities in a flurry of Panic. The room fill with light as you summon a giant lightning beast that slams the ground and creates a large explosion, entirely destroying the castle. Dakota arises from the rubble, beaten, and hands you a mage's staff. 'Well Done, you've earned this, the Crystal Staff. I hope to see you again.'",
+    "answers": {
+      "FINISH": 100
+    }
+  },
+  {
+    "id": 94,
+    "question": "You enter the competition with your Griffin, Tyrell, and go through rounds of fighters and beasts and successfully win all of the rounds with a breeze. But now it's the final round. The most important part. Malik Roughclaw. The Big Deal. He enters the arena from the shadows with his Frost Lynx. 'LET THE BATTLE, COMMENCE!' Tyrell dahes into the sky, trying to flank but is instantly frozen but the Frost Lynx and falls out of the air. Meanwhile, you are charging towards Malik and waving your Gold Battle Axe around, but to no Avail. Malik is craftily dodging and ducking past all swings and countering them. You get the idea to trick him, fake swing and get rough. You go fists swinging, smashing Malik hard. He has no clue what to do. The Lynx tries to get involved but you grab and use it as a weapon against Malik. He calls apon a Beam of Light, a last resort. The energy crashes down from the skies, wrecking the Terrain. But Malik doesn't know that you have prepared for this, You are Ready. You get yourself in a position and take the hit. It's unbelieveable. Absorbing so much energy would kill a regular person. You are not regular. You blast all of it back at Malik. You practically obliverate him. On his last breath he says the words. 'You, with no doubt, are the Champion. A better Champion than I was. Well Fought...'",
+    "answers": {
+      "FINISH": 100
     }
   }
 ];
