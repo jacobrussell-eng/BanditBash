@@ -48,6 +48,8 @@ body {
 .picture-holder img {
   max-width: 100%;
   height: auto;
+  max-height: 100%;
+  width: auto;
 }
 .question {
   margin-bottom: 20px;
@@ -102,17 +104,3 @@ body {
   font-size: 30px;
 }
 
-Archmage.jpg {
-  height: 350px;
-  width: auto;
-}
-
-Monk.jpg {
-  height: 350px;
-  width: auto;
-}
-
-paladin.jpg {
-  height: 350px;
-  width: auto;
-}

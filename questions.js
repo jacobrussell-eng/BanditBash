@@ -362,7 +362,7 @@ var questionData = [
     "question": "You read some books on BEASTS and learn differnt strengths and weaknesses. After months of reading and practising, You travel to another land nearby called Taligoth and meet some people there. Taligoth is famous for the Champion's Arena, created by Paladin Malik Roughclaw, A very well known Soldier and Fighter. Every 10 years they host a competition called 'The Champion's Belt' where a group of fighters will enter and contest to win the belt, but the winner is challenged by Malik for thr belt. You are Determined. Sure it's never been won before but you are different. You can do this.",
     "picture": "paladin.jpg",
     "answers": {
-      "FINISH": 92
+      "FINISH": 100
     }
   },
   {
@@ -373,7 +373,7 @@ var questionData = [
       "coins": 605
     },
     "answers": {
-      "FINISH": 92
+      "FINISH": 100
     }
   },
   {
@@ -385,14 +385,14 @@ var questionData = [
       "axe": true
     },
     "answers": {
-      "FINISH": 92
+      "FINISH": 100
     }
   },
   {
     "id": 41,
     "question": "When you landed, the legs of the chair snapped and became sharp. Quickly before the ghoul saw you, you shrugged off the ropes and launched yourself towards the ghoul but got smacked out of the air. Yep, now he's mad. The ghoul charges wildly and you perform a maneuver. You slide underneath it, twist, hop off it's back lef and impale it's head. Defeated. Inside of it's mangled brain, there's a blue stone. You recognize it to be a Necromancer stone. You grab it and make a staff with it. After that you escape and learn the ways of Necromancy.",
     "answers": {
-      "FINISH": 92
+      "FINISH": 100
     }
   },
   {
@@ -406,7 +406,7 @@ var questionData = [
     "id": 46,
     "question": "You heed the call and charge galiantly towards the Dragon. With a strong-handed swing, you aim for the neck and slice, but it only cuts so deep, it's gonna take more than one hit. You dash side to side, dodging all frostballs and swings from the Dragon. You get a few more hits in and when you're about half way to decapitation the Dragon catcges you with it's wing and drags you towards the edge of the canyon. Before the final powerful hit, your sword is charged with Light, and gains immense strength. The Dragon and it's head tumble off the edge, falling to it's doom. You now make it your goal to fight and conquer all beasts that wish to damage Kragnar.",
     "answers": {
-      "FINISH": 92
+      "FINISH": 100
     }
   },
   {
@@ -416,35 +416,35 @@ var questionData = [
       "dragonEye": true
     },
     "answers": {
-      "FINISH": 92
+      "FINISH": 100
     }
   },
   {
     "id": 48,
     "question": "The Dragon sees you and flies up into the air. Unexpected to you, but you begin to fly. Sure you're a bit shaky but your goddamn Flying! Once you get the hang of it, you lift upwards and dodge consistent Frost balls being launched by the Dragon. Next, you charge forwards to the Dragon and aim for it's chest. (Side-bit: What melts ice? Fire!) Randomly, your hands feel a bit warm... then the sword catches a lite and you puncture the Dragon's chest, then fly down and slice open the belly of the beast. Ok, maybe there are Dragon guts splatted all across the ground, but you slayed a Dragon! Later on you study the symptoms that you experienced and learn how to use your powers properly.",
     "answers": {
-      "FINISH": 92
+      "FINISH": 100
     }
   },
   {
     "id": 49,
     "question": "You and some other men there all decide that the best option is to trip the Ogre. There was 3 flankers, 3 archers and you, The 'Leg Man'. The Ogre is slamming and crushing around, missing most of them as the archers are sniping at his face. You're hammering away at his leg, chopping th ankle and hitting all of the tendons back there. Suddenly, the Ogre swings a massive blow, knocking away arrows, slaughtering 2 flankers and flying their corpses over to the archers. The Ogre let out a thunderous roar, scaring civilians from miles away. The reason was that you just split his Achille's heel. He trips and smashes into the ground, and you finish him off for good measure.",
     "answers": {
-      "FINISH": 92
+      "FINISH": 100
     }
   },
   {
     "id": 50,
     "question": "You quickly decide to dash past the Ogre and cramble up the side of it's large club, onto it's arm and on it's back. The Ogre starts swinging to hit you but keeps hitting himself, causing him to keel over. Now's your chance. Jump and FINISH HIM! Axe Blade + Skull = Dead Ogre. You're a wild warrior at heart. You take it as your destiny to serve and protect Kragnar, and you keep the streets safe from intruders, and allow the civilians to rest well at night. There's a hero a bit like that whose obsessed with bats. Can't remember his name though...",
     "answers": {
-      "FINISH": 92
+      "FINISH": 100
     }
   },
   {
     "id": 51,
     "question": "'HEY YOU BIG GREEN IMBECILE! YEAH YOU!' Your insulting chants grabs his attention and he paces towards you. He's mad. Real mad. He Probably didn't understand what you said but he still doesn't like you. Unfortunately, you've now been pushed to the edge, and he's directly in front of you. Out of random thought, you slam the ground with your axe and the ground around the Ogre cracks, aswell as yours. You shout 'YOU! SHALL NOT! LIVE!', then you push away and your mini rock island floats off and the large cracked rock that the Ogre is on slides and he falls down to his death. You then learn the arts of elemental magic and use it for good.",
     "answers": {
-      "FINISH": 92
+      "FINISH": 100
     }
   },
   {
@@ -488,5 +488,16 @@ var questionData = [
     "answers": {
       "FINISH": 100
     }
+  },
+  {
+    "id": 55,
+    "question": "Hastily, you perform a flip and kick the sword out of his hand, then you uppercut him in the chin. Once he's on the ground, you grab the sword and hold it by his throat, '*cough* I knew it was you' says the intruder, struggling for air. 'What do you mean?' 'You, Hassan Skiff, master assassin and bounty hunter. Killed kings and idols in a blink of an eye. Ironic really, because now there's a bounty on your head.' In Fury, you drive the sword into his head, and decide to ask about to see about this 'Master assassin' Business. After speaking to some people, you seek your previous employers, and get back to work. When you arrive, you are told that every assassin in the group are about to raid the entire Royal Family, and take control over Kragnar, and you're the leader. After, you all go and take out the members One by One and slowly destroy the Dictatorship. In a final battle, you brutally murder the Lead King, and gain Control over Kragnar.",
+    "answers": {
+      "FINISH": 100
+    }
+  },
+  {
+    "id": 56,
+    "question": "Quickly, you dash towards him and tackle him to the ground. Both of you are are swinging and throwing punches at each other, rolling along the floor and wrestling around. He gets ontop of you and drills the sword through the side of your torso, leaking out tons of blood. Your not feeling it for some reason. After you snap it out of your side, drive it through his leg and into the ground."
   }
 ];
