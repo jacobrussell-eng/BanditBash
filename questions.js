@@ -498,6 +498,6 @@ var questionData = [
   },
   {
     "id": 56,
-    "question": "Quickly, you dash towards him and tackle him to the ground. Both of you are are swinging and throwing punches at each other, rolling along the floor and wrestling around. He gets ontop of you and drills the sword through the side of your torso, leaking out tons of blood. Your not feeling it for some reason. After you snap it out of your side, drive it through his leg and into the ground."
+    "question": "Quickly, you dash towards him and tackle him to the ground. Both of you are are swinging and throwing punches at each other, rolling along the floor and wrestling around. He gets ontop of you and drills the sword through the side of your torso, leaking out tons of blood. Your not feeling it for some reason. After you snap it out of your side, drive it through his leg and into the ground. As he screams out in pain, you grip his neck and begin to Interrigate. The classic: 'Who do you work for?', 'Where is your base' and 'Why are you here?'. He ends up informing you that he works "
   }
 ];
