@@ -498,6 +498,11 @@ var questionData = [
   },
   {
     "id": 56,
-    "question": "Quickly, you dash towards him and tackle him to the ground. Both of you are are swinging and throwing punches at each other, rolling along the floor and wrestling around. He gets ontop of you and drills the sword through the side of your torso, leaking out tons of blood. Your not feeling it for some reason. After you snap it out of your side, drive it through his leg and into the ground. As he screams out in pain, you grip his neck and begin to Interrigate. The classic: 'Who do you work for?', 'Where is your base' and 'Why are you here?'. He ends up informing you that he works "
+    "question": "Quickly, you dash towards him and tackle him to the ground. Both of you are are swinging and throwing punches at each other, rolling along the floor and wrestling around. He gets ontop of you and drills the sword through the side of your torso, leaking out tons of blood. Your not feeling it for some reason. After you snap it out of your side, drive it through his leg and into the ground. As he screams out in pain, you grip his neck and begin to Interrigate. The classic: 'Who do you work for?', 'Where is your base' and 'Why are you here?'. He ends up informing you that he works for a demon hunter agency. From what you know, Demon Hunters are ruthless monsters that have no remorse for what they destroy whilst chasing Demons. You roam the land, Interrigating and finding your way around and eventually reach their mountain base and are challenged by a group of the Hunters",
+    "answers": {
+      "CHALLENGE": 100,
+      "BLOCK": 101,
+      "FLANK": 102
+    }
   }
 ];
