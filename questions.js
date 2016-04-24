@@ -236,7 +236,7 @@ var questionData = [
   },
   {
     "id": 21,
-    "question": "You grab a small towel and hastily wave it about to stop the flames. After you've messed with the fire, you hear a queit snigger, echo through the house. It turns out that up the Chimney is a Flame imp.",
+    "question": "You grab a small towel and hastily wave it about to stop the flames. After you've messed with the fire, you hear a quiet snigger, echo through the house. It turns out that up the Chimney is a Flame imp.",
     "answers": {
       "WATER": 61,
       "TRAP": 62,
@@ -498,11 +498,46 @@ var questionData = [
   },
   {
     "id": 56,
-    "question": "Quickly, you dash towards him and tackle him to the ground. Both of you are are swinging and throwing punches at each other, rolling along the floor and wrestling around. He gets ontop of you and drills the sword through the side of your torso, leaking out tons of blood. Your not feeling it for some reason. After you snap it out of your side, drive it through his leg and into the ground. As he screams out in pain, you grip his neck and begin to Interrigate. The classic: 'Who do you work for?', 'Where is your base' and 'Why are you here?'. He ends up informing you that he works for a demon hunter agency. From what you know, Demon Hunters are ruthless monsters that have no remorse for what they destroy whilst chasing Demons. You roam the land, Interrigating and finding your way around and eventually reach their mountain base and are challenged by a group of the Hunters",
+    "question": "Quickly, you dash towards him and tackle him to the ground. Both of you are are swinging and throwing punches at each other, rolling along the floor and wrestling around. He gets ontop of you and drills the sword through the side of your torso, leaking blood. Your not feeling it for some reason. After you snap it out of your side, drive it through his leg and into the ground. As he screams out in pain, you grip his neck and begin to Interrigate. The classic: 'Who do you work for?', 'Where is your base' and 'Why are you here?'. He ends up informing you that he works for a demon hunter agency. From what you know, Demon Hunters are ruthless monsters that have no remorse for what they destroy whilst chasing Demons. You roam the land, Interrigating and finding your way around and eventually reach their mountain base and are challenged by a group of the Hunters",
     "answers": {
       "CHALLENGE": 100,
       "BLOCK": 101,
       "FLANK": 102
     }
-  }
+  },
+  {
+    "id": 57,
+    "question": "Hastily, you grab the pickaxe and launchit towards the stranger. Straight away it pierces his skull and ends him. As his corpse collapses, a small green crystal slips out of his loot bag. Out of curiosity, you obtain it and squeeze it tight in your fist but after, a herd of bramble vines begin to wrap around you. Suddenly, a large pack of other Bandits emerge from the past hedges. For a reason Unbeknownst to you, You feel the urge to start swinging your arms, and it works. Plants and nature begin to manipulate at your will. Swinging vines, whipping legs and crushing under trees, These Bandits are no match for your newly found powers. About a week after the encounter, you visit a storyteller and he tells you all about Geokinesis and the best ways of using it. You spend the majority of your time researching and practising Geokinesis, to become the best caster in all of Kragnar.",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 58,
+    "question": "Slowly, you creak open the door and see the silhouette over in the corner. You line up the shot and fire at the lamp beside it. It turns out it was a Gnome with a Mechanical suit on and large goggles. 'Woah there Pal! calm down, I mean no harm. In fact I'm here with an offer.' He had a slight lisp which began to bug you. 'I had read your book on Keeping calm and harnessing your inner energy. I thought that with channeling your energy and a bit of technical inhancement, we could potentially create a super-soldier.' You tagged along and followed his steps. In about 3 months time, the two of you created a masterpeice. It was a set of metal armour powered with mystical energy, which allowed the wielder to cast spells and attacks. The 2 of you split the suit between each other, so that you got the top half and he got the bottom half. You then became the gnome's villiage protector.",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 59,
+    "question": "The best option in your mind is to shoulder charge through the window, and whilst in midair, you pull back the trigger and land a perfect shot int the middle of his forehead. The stranger in the room turns out to be a scavenging troll, rumaging through your personal items. It's too late to find out anything else as you obliterated his skull (Which was awesome by the way) Because of all of the commotion, 2 guards showed up to investigate and you explained what had happened to them. After hearing about your epic shot, they recruited you to the royal guards and soon you became one of their best Marksman. Congrats.",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 60,
+    "question": "Hastily, you kick down the door and blast a shot into the shoulder of the stranger. It turns out that he is a Blood Elf that was tracking down a Beast Hunter that had gone rogue. The reason he was at your place though was that you had previous experiences with him and very recently spend time with him in a local Tavern. Apparently he is well known for being a backstabber and a horrible friend. Then you get hit with memories flushing back to you. Then you also realise that all of your valuables and belongings are missing. Bastard. Now you decide that it was time for some freaking revenge. You join the search party and hunt down the crook. In a final showdown, he begs for mercy of which you give none, break his arm and loot him, then give him over to the search party so they can have their violent fun.",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 61,
+    "question": "Nothing beats fire better then a good splash of H2O. Steam pours out of the chimney and the flame imp rolls across the floor in pain and panic. Suddenly a pack of other little imps scurry out of the chimney, agitated. ",
+    "answers": {
+      "FINISH": 120
+    }
+  },
 ];
