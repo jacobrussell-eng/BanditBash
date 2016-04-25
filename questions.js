@@ -535,9 +535,49 @@ var questionData = [
   },
   {
     "id": 61,
-    "question": "Nothing beats fire better then a good splash of H2O. Steam pours out of the chimney and the flame imp rolls across the floor in pain and panic. Suddenly a pack of other little imps scurry out of the chimney, agitated. ",
+    "question": "Nothing beats fire better then a good splash of H2O. Steam pours out of the chimney and the flame imp rolls across the floor in pain and panic. Suddenly a pack of other little imps scurry out of the chimney, agitated. Water seemed to be effective the first time, why not again. You grab a small stick of dynamite and lead the Imps to a water tower by the cliff side. Then you destroy the side and the Aquatic materials gush out and cause the Imps to perish. Unfortunately you are violently hit aswell. When you wake up from intense recovery, your palms are wet and your fingers are dripping with water. But as you reach for a towel, a Hydro pump erupts from your hands, and you realise that you have gained the power of Aquakinesis.",
     "answers": {
       "FINISH": 120
     }
+  },
+  {
+    "id": 62,
+    "question": "Cleverly, you see the fire container that stops the flames from lighting the rest of the house on fire by shutting out the chimney. With haste, you slam it shut and ignite the fireplace, with literal Gallons of Gasoline. Inferno rages upwards and pulverises the Imps, and your home. The explosion destroyed all of your belongings and almost your life. After getting out of intense recovery, your fingers catch alight, and you set the bedside table on fire. You then realise that you have gained the ability of Pyrokinesis.",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 63,
+    "question": "With fury, you grab the Imp by it's ankle, pull it down and begin slamming it against the wall. Then you hear scuttling from further up the chimney. When you take a look there are even fiercer Imps that are enraged. You quickly chase them up there, giving them a foul stare the entire time. Once you get to the roof, It is raining heavily. One of the Imps is holding your metal fire poker. First you kick that Imp and grab the poker, then go on a beat down on the rest. They don't stand a chance. All of them are exhausted and bewiddled on the floor after. In victory you raise the poker into the sky. Unfortunately that attracts a lightning strike and you are hit by violent Thunder and the roof is caved in. You wake up, after intense recovery. The ends of your fingers are zapping and you feel pins and needles in your hands. You realise that you have gained Fulgurkinesis.",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 64,
+    "question": "The Demon is charging head on, and your reaction is to also run towards it. But before the two of you clash, You throw a twisting fireball upwards and hitting him in the chin. He is sent flying into the air, and enraged. Again it dashes towards you and with another fireball you smash it's face into the ground, making a small, demon-head sized crater in the floor. Before it has the chance to recover, you continuously slam flame blasts into the back of it's skull. It's body slowly digs deeper and deeper. With one final blow, it's conquered. Behind him is a shaky pathway back to the surface.",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 65,
+    "question": "The Demon is charging head on, and your reaction is to crash the orb into the ground, so that you are ducked down in a small trench. The demon trips and tumbles across the floor. Then, with the orb in hand, you furiously uppercut the demon and send him crashing into the wall behind him. After you throw the Orb towards him. Whilst in mid-air, the ball lights on fire and then smashes into the Demon's stomach. He is defeated. You see behind him is a shaky pathway back to the surface.",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 66,
+    "question": "The Demon is charging head on, and your reaction is to run towards him, and dive holding the orb in front of you. Both you and the orb set aflame, like a crashing meteor, and tear through it's left wing. The Demon tries intensly to fly but keeps falling. Whilst it's caught off guard, You viciously drive the Orb through the back of it's chest, bursting through it's ribcage. It is (obviouly) defeated. Behind the Demon is a shaky pathway that leads back up to the surface.",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 67,
+    "question": "You start running towards it and hit the fireball head on. When it crashes into the shield, the flames curve around and you only have a slight recoil. Once you got through a couple fireballs, ",
+    "answers": {}
   },
 ];
