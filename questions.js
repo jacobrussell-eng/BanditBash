@@ -2,6 +2,7 @@ var questionData = [
   {
     "id": 0,
     "question": "Hello Traveller! \n\nWelcome to Bandit Bash. \n\nCan you fend off the beasts that lurk in Kragnar? \n\nAre you wise enough to learn the strongest spells? \n\nDo you have the skill to be the stealthiest assassin ever known? \n\nWill you become a \nSoldier, Wizard or Thief? \n\nTest your luck and find out...",
+    "picture": "title.png",
     "answers": {
       "BEGIN": 1
     }
@@ -260,7 +261,7 @@ var questionData = [
     "answers": {
       "DEFEND": 67,
       "DEFLECT": 68,
-      "DESIST": 69
+      "DODGE": 69
     }
   },
   {
@@ -577,7 +578,111 @@ var questionData = [
   },
   {
     "id": 67,
-    "question": "You start running towards it and hit the fireball head on. When it crashes into the shield, the flames curve around and you only have a slight recoil. Once you got through a couple fireballs, ",
-    "answers": {}
+    "question": "You start running towards it and hit the fireball head on. When it crashes into the shield, the flames curve around and you only have a slight recoil. After you got through a couple fireballs, The shield slams into his chest and then you smack him up the chin, causing him to stumble over. Once he's on his knees, you begin to batter him with the side of the shield. One of his horns snap off and he howls in Pain. Hastily, you grab the broken horn, and stab his in the neck repeatedly. Now that he's dead, you see behind him is a shaky pathway that leads back up to the surface.",
+    "answers": {
+      "FINISH": 120
+    }
   },
+  {
+    "id": 68,
+    "question": "The fireball hits the shield at a certain angle and deflects back towards him. It hits him in the wing and he starts to trip and stumble. That was cool. Enraged, he shoots another one. Except this time, you weren't ready and forgot how you did it last time. You just got lucky. Either way, the furious fireball destroys your shield and tears through your chest. Splattered across the wall and hunching on the floor, you last breaths are taken from you as the Demon drags you away to hungry Flame beasts. YOU LOST",
+    "answers": {
+      "RETRY": 0
+    }
+  },
+  {
+    "id": 69,
+    "question": "Like a boss, you run to the wall, jump and kick off of it, and dodge the fireball. In a landing that is similar to Spiderman's, you hit the floor and in the same motion you hurl the shield towards the Demon. The shield smashes him in the head and he falls to one knee. Quickly, you dash over towards him and swing kick him across the face. Behind him is a shaky pathway that leads back up to the surface.",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 70,
+    "question": "Look at him, he's smaller than you, he's probably weaker than you. You can take him. Instantly, you dash towards him as well. As you enter combat, you are wrecking him. Violent punches and hits across the face, on the chin, cracking elbows; He stands no chance. Beaten up, the Demon tries to crawl away, but there's no way your giving mercy. You leap towards him and land on top of him. Brutally, you pummel his face with a flurry of fists. His face is swollen to the point that it can't be any more bruised. With one final hit, the crack of his skull implies that he is dead. Behind him you see a shaky pathway that leads to the surface. Before you leave, you grab a few more stems and seeds of the plant.",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 71,
+    "question": "Before he could even reach you, you slam the ground with both fists and cause a large quake. The cave is crumbling around you and a barrage of rocks and boulders collapse from the ceiling and they all land the Demon. He is crushed and near death. The Demon is scarcely exhaling his trapped air. Standing over him, you finish him with a stomp on the back of his skull. CRACK. Behind him you see a shaky pathway that leads up to the surface. Before you leave you grab a couple seeds and stems of the plant.",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 72,
+    "question": "He looks freaking huge, you can't take him. You lay on your knees and beg for mercy. It worked. He stops and stands over you. His shadow is empowering. His straight face turns into a worrying grimace. He lifts the mace in the air, ready to drop it... right? He's totally gonna drop it. Just after he swings it down and 'SMASH'. Ah. He's just dented your skull. That's a lot of blood... He batters in your head with his mace until you die. YOU LOST. Turns out that you could have easily taken him. Remember that you have massive pulsating muscles and incredible strength? Anyways you're dead.",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 73,
+    "question": "Like some kind of spy, you snatch his guards outfit and get into disguise. You march down the stairs with the musket placed on your shoulder and keep in character. Before you get out, you are stopped by a general. 'Borofski!' That's the name of the person you just killed and dressed into his clothes. 'Yes Sir' you reply scrappily. 'I need you to take this inmate to his appropriate cell' You: 'Why of course sir' You just lead him outside and let him roam free, doesn't matter to you, you just escaped a prison. Weeks later, you hear spreading around that a Mass murderer that has a kill count of over 450 is out of prison and killing again. Last seen with Ferencia Borofski. You feel very guilty, but hey, you're free aren't you?",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 74,
+    "question": "You read out the spell on the wall out loud and within soon a large fire dragon appears and heeds to your call. Well, what else would you do except get on it, right? A bit shaky at first but you get the hang of it. Once you got out, you found the art of Summoning awesome and interesting and learn there ways with Arcane Magic. Within soon you become an Amateur summoner and get into challenges and fights frequently. Sweet.",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 75,
+    "question": "You start to rummage through some cupboards and storage unit until you find an entire cabinet full of Muskets. With protective armor on and a bunch of loaded guns, you charge down the stairs, guns blazing. Turn one corner, BLAM he's dead. Turn another corner BOOM headshot, another corner, another life taken. You're wreaking havoc and mayhem, and also spreading gunpowder and blood across all of the walls. It's a gory and epic mess. You walk out feeling like a badass with smoke gushing out of the barrels that you're holding.",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 76,
+    "question": "Before the Guard can notice you, you launch yourself out of the window and land into the haystack. You neck is Fricking killing. It's actually really uncomfortable. You roll out and make a dash away. Not long after, a herd of Guards in horse carriages come from all directions. You get hit with recovering memory that you were a master criminal and a bounty hunter drugged you and hid you in the Tavern for the Guards to get you, but they actually work for a rival crime boss. But the drugs wore off to quickly and you escaped, into prison, the wrong one. These in front of you are the fake ones. Quickly, you leap onto one of the carriages and it tries to swing you off. You grab a musket and start sniping the other riders. Once you've got control of the carriage, you ride around shooting the others and then make a quick getaway. You meet up with your previous partners and get back to work",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 77, 
+    "question": "You tie the knots and slowly propell yourself down. But out of nowhere, snipers with crossbowes run out and shoot at you. One arrow hits you in the leg and you lose balance. You begin riding downt he rope at intense speeds, causing serious rope burn on your palms. The pain is excrutiating. you land on the haystack and roll off it. As you look up, ready to dash, you get hit by an arrow right between the eyes. You're dead. YOU LOST",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 78,
+    "question": "You crawl along the side of the building and get to the window of another cell. You grind through the feeble bars and free him. He joins you on the outside as you free other inmates aswell. Once there is 5 of you, you make your way into the hallway and tagteam the Patrolling Guard. Now you've got a key set. You free all of the others prisoners; Murderers, Arsonists, Kidnappers, Thieves, the whole lot. The whole lot of you riot and charge the prison down. Tied up and killed all of the guards, stolen all of the weapons and valuables, and get out. The Guards of another nearby city and the main Officers and Guards of Kragnar start a manhunt and track down the escapees. You just lay low and now don a Trench coat and large headpiece.",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 79,
+    "question": "You raise your fists and prepare for conflict. Kicks and flips, taking them down and jumping between them, you're like a freaking ninja. You quickly grab a sword and as more Guards pour out of the doors you slaughter them. Slicing, Stabbing, Slashing. More and More officers flooding in, and getting demolished by the edge of your mighty blade. The room is gushing with blood. A brutal massacre. After you have killed about 50 people, you just stand there, dripping with bodily fluids. For some reason, after the indescribibly horrible thing you've done, you feel good.",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 80,
+    "question": "You scream in panic, get on your knees and raise your hands. Maybe they'll be nice on you. Nope. Instead they batter you in with batons and then throw into Solitary Confinement in the underground cellar for life. Pretty much, Unless you're a lawful citizen and believe that that was the fair and correct way to go about it, then YOU LOST",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 81,
+    "question": "'Huh! Look over there! There's a cannonball heading straight for us!' Good Idea. No seriously, That was smart. Anyways, they all act gullible and turn to the location that you pointed as you grab a heavy musket and bash them all round the back of the head with it. After you literally just walk out. Nailed It.",
+    "answers": {
+      "FINISH": 120
+    }
+  },
+  {
+    "id": 82,
+    "question": "Oh? He leads you down the alley and to the library. Behind one of the bookcases is a secret temple. After going down about 10 flights of stairs you enter a "
+  }
 ];
