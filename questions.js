@@ -669,7 +669,7 @@ var questionData = [
   {
     "id": 83,
     "question": "You ignore him, I mean, he's just a stupid old person you just met. You search the unconscious guy's pockets and find an invitation to a Fight training session for newcomers and the chance to become a skilled martial artist. Sounds interesting, and you did just literally wreck a guy in seconds. So you go along and see what's up. All of the other contestants seem weak and feeble. You finally get to a mentor and he says that before any training, he wants to see what you're like. You go mental with a flip, then an uppercut, after a hit to the collarbone, then a furious grip of his cuff and you slam him into the ground. He's incredibly inpressed. You're in. Straight away. In fact, inless than 2 weeks you're a mentor and teching others how to fight opponents. You're a Natural.",
-    "picture": "gym-tank.jpg"
+    "picture": "gym-tank.jpg",
     "answers": {
       "FINISH": 122
       }
@@ -692,7 +692,7 @@ var questionData = [
       "picture": "clash.jpg",
       "inventory": {
         "coins": 20000,
-        "sword": true,
+        "sword": true
       },
       "answers": {
         "FINISH": 122
@@ -775,7 +775,7 @@ var questionData = [
   },
   {
     "id": 120,
-    "question": "Congratulations. You have Played well and your final Outcome is... \nSOLDIER \nThanks for Playing!",
+    "question": "Congratulations. You have Played well and your final Outcome is... \n\nSOLDIER \n\nThanks for Playing!",
     "picture": "soldier.jpg",
     "answers": {
       "RETRY": 0
@@ -783,7 +783,7 @@ var questionData = [
   },
   {
     "id": 121,
-    "question": "Congratulations. You have Played well and your final Outcome is... \nWIZARD \nThanks for Playing!",
+    "question": "Congratulations. You have Played well and your final Outcome is... \n\nWIZARD \n\nThanks for Playing!",
     "picture": "wiz.jpg",
     "answers": {
       "RETRY": 0
@@ -791,10 +791,10 @@ var questionData = [
   },
   {
     "id": 122,
-    "question": "Congratulations. You have Played well and your final Outcome is... \nTHIEF \nThanks for Playing!",
+    "question": "Congratulations. You have Played well and your final Outcome is... \n\nTHIEF \n\nThanks for Playing!",
     "picture": "thief.jpg",
     "answers": {
       "RETRY": 0
     }
-  },
+  }
 ];
