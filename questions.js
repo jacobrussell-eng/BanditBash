@@ -44,7 +44,7 @@ var questionData = [
   },
   {
     "id": 5,
-    "question": "You take a chug and you begin to feel queasy and then you blackout. When you wake up you are in a prison cell in the Guards Tower. You see a Guard out through the bars, a barred of window and a metal pole on the floor.",
+    "question": "You take a chug and you begin to feel queasy and then you blackout. When you wake up you are in a prison cell in the Guards Tower. You see a Guard out through the bars, a barred off window and a metal pole on the floor.",
     "picture": "cell.jpg",
     "answers": {
       "TRICK": 26,
@@ -54,7 +54,7 @@ var questionData = [
   },
   {
     "id": 6,
-    "question": "Whilst the bartender has his backturned, You grab the glass and try to sneak it out. Before you get far another man at the bar ,of which is very beefy, says to you 'Oi! You gonna pay for that aren't ya boy? Without thinking you automatically reply with 'Back off!'. The man stands up to you fiercly.",
+    "question": "Whilst the bartender has his backturned, You grab the glass and try to sneak it out. Before you get far another man at the bar, of which is very beefy, says to you 'Oi! You gonna pay for that aren't ya boy? Without thinking you automatically reply with 'Back off!'. The man stands up to you fiercly.",
     "answers": {
       "FIGHT": 29,
       "PLEAD": 30
@@ -72,7 +72,7 @@ var questionData = [
   },
   {
     "id": 8,
-    "question": "Sure, why not. Just listen to the creepy guy with the random drink. Anyways you take a gulp and Pass out. Shoulda seen that coming. You wake up in a Dark room and your tied to a chair with rope. Around the room are Flame torches and on the floor is a switch.",
+    "question": "Sure, why not. Just listen to the creepy guy with the random drink. Anyways you take a gulp and Pass out. Shoulda seen that coming. You wake up in a Dark room and you're tied to a chair with rope. Around the room are Flame torches and on the floor is a switch.",
     "picture": "damp-room.jpg",
     "answers": {
       "SHUFFLE": 15,
@@ -99,7 +99,7 @@ var questionData = [
   },
   {
     "id": 11,
-    "question": "As you open the trapdoor, you fall down into the pit. When you hit the ground, you're head clangs against a pile of ,surprisingly clean, bones and skulls. As you look around you see a red fiery orb, A shield with arrows lodged inside of it and a Mecidinal root.",
+    "question": "As you open the trapdoor, you fall down into the pit. When you hit the ground, your head clangs against a pile of ,surprisingly clean, bones and skulls. As you look around you see a red fiery orb, A shield with arrows lodged inside of it and a Mecidinal root.",
     "picture": "pitted.jpg",
     "answers": {
       "ORB": 23,
@@ -119,7 +119,7 @@ var questionData = [
   },
   {
     "id": 13,
-    "question": "You walk into the Butcher's and you are greeted by a bunch of jolly people in a group. As you walk by you nod and then talk to the Butcher. 'Alright lad, any piece of meat is 4 coins' You see in the background a 'LOOKING FOR HELP' poster. 'Oh, that. our animals out back get getting attacked by a rabid wolf. We could do with a strong guy like you. I'll pay you 10 coins'",
+    "question": "You walk into the Butcher's and you are greeted by a bunch of jolly people in a group. As you walk by you nod and then talk to the Butcher. 'Alright lad, any piece of meat is 4 coins' You see in the background a 'LOOKING FOR HELP' poster. 'Oh, that. our animals out back keep getting attacked by a rabid wolf. We could do with a strong guy like you. I'll pay you 10 coins'",
     "picture": "butcher.jpg",
     "answers": {
       "MEAT": 34,
@@ -138,7 +138,7 @@ var questionData = [
   },
   {
     "id": 15,
-    "question": "Precariously, you hop over towards one of the torches on the wall a light the ropes around your hands on fire. Once they've burnt through, you bang on the door and demand answers. A hooded dude like the one you saw in the Tavern approaches you and says 'Wow, you got out, follow me...'",
+    "question": "Precariously, you hop over towards one of the torches on the wall and light the ropes around your hands on fire. Once they've burnt through, you bang on the door and demand answers. A hooded dude like the one you saw in the Tavern approaches you and says 'Wow, you got out, follow me...'",
     "answers": {
       "FOLLOW": 39,
       "HIT": 40
@@ -155,7 +155,7 @@ var questionData = [
   },
   {
     "id": 43,
-    "question": "After you have bought your weapon, the Blacksmith says to you 'Hey, If you wanna test out your new weapon, I heard they're hosting a training tournament down at the canyon.' The instinct inside of you automatically is on the case. You rush down there with high hopes and glee. But when you arrive, they are floods of civilians sprinting away. Soon you realise... you have encountered an Ice Dragon. Your hero part of you comes into play and plans the strategy. Do you hit in the...",
+    "question": "After you have bought your weapon, the Blacksmith says to you 'Hey, If you wanna test out your new weapon, I heard they're hosting a training tournament down at the canyon.' The instinct inside of you automatically is on the case. You rush down there with high hopes and glee. But when you arrive, there are floods of civilians sprinting away. Soon you realise... you have encountered an Ice Dragon. Your hero part of you comes into play and plans the strategy. Do you hit in the...",
     "picture": "Dragon.jpg",
     "answers": {
       "NECK": 46,
@@ -165,7 +165,7 @@ var questionData = [
   },
   {
     "id": 44,
-    "question": "After you have bought your weapon, the Blacksmith says to you 'Hey, If you wanna test out your new weapon, I heard they're hosting a training tournament down at the canyon.' The instinct inside of you automatically is on the case. You rush down there with high hopes and glee. But when you arrive, they are floods of civilians sprinting away. Soon you realise... you have encountered an Murderous Ogre. You hastily decide to attack by...",
+    "question": "After you have bought your weapon, the Blacksmith says to you 'Hey, If you wanna test out your new weapon, I heard they're hosting a training tournament down at the canyon.' The instinct inside of you automatically is on the case. You rush down there with high hopes and glee. But when you arrive, there are floods of civilians sprinting away. Soon you realise... you have encountered an Murderous Ogre. You hastily decide to attack by...",
     "picture": "Ogre.jpg",
     "answers": {
       "LEG": 49,
@@ -175,7 +175,7 @@ var questionData = [
   },
   {
     "id": 45,
-    "question": "After you have bought your weapon, the Blacksmith says to you 'Hey, If you wanna test out your new weapon, I heard they're hosting a training tournament down at the canyon.' The instinct inside of you automatically is on the case. You rush down there with high hopes and glee. But when you arrive, they are floods of civilians sprinting away. Soon you realise... you have encountered a Wild Hell Hound. Without thought you battle by...",
+    "question": "After you have bought your weapon, the Blacksmith says to you 'Hey, If you wanna test out your new weapon, I heard they're hosting a training tournament down at the canyon.' The instinct inside of you automatically is on the case. You rush down there with high hopes and glee. But when you arrive, there are floods of civilians sprinting away. Soon you realise... you have encountered a Wild Hell Hound. Without thought you battle by...",
     "picture": "hellhound.jpg",
     "answers": {
       "MOUTH": 52,
@@ -217,7 +217,7 @@ var questionData = [
   },
   {
     "id": 19,
-    "question": "You head over to the broken door and see the glass shards everywhere. Out in the garden is a tall, buff man with a Cavalier's blade. Behind you is sharpened pickaxe. You can...",
+    "question": "You head over to the broken door and see the glass shards everywhere. Out in the garden is a tall, buff man with a Cavalier's blade. Behind you is a sharpened pickaxe. You can...",
     "picture": "garden.gif",
     "answers": {
       "DISARM": 55,
@@ -360,7 +360,7 @@ var questionData = [
   },
   {
     "id": 38,
-    "question": "You read some books on BEASTS and learn differnt strengths and weaknesses. After months of reading and practising, You travel to another land nearby called Taligoth and meet some people there. Taligoth is famous for the Champion's Arena, created by Paladin Malik Roughclaw, A very well known Soldier and Fighter. Every 10 years they host a competition called 'The Champion's Belt' where a group of fighters will enter and contest to win the belt, but the winner is challenged by Malik for thr belt. You are Determined. Sure it's never been won before but you are different. You can do this.",
+    "question": "You read some books on BEASTS and learn differnt strengths and weaknesses. After months of reading and practising, You travel to another land nearby called Taligoth and meet some people there. Taligoth is famous for the Champion's Arena, created by Paladin Malik Roughclaw, A very well known Soldier and Fighter. Every 10 years they host a competition called 'The Champion's Belt' where a group of fighters will enter and contest to win the belt, but the winner is challenged by Malik for the belt. You are Determined. Sure it's never been won before but you are different. You can do this.",
     "picture": "paladin.jpg",
     "answers": {
       "FIGHT": 94 
@@ -391,28 +391,28 @@ var questionData = [
   },
   {
     "id": 41,
-    "question": "When you landed, the legs of the chair snapped and became sharp. Quickly before the ghoul saw you, you shrugged off the ropes and launched yourself towards the ghoul but got smacked out of the air. Yep, now he's mad. The ghoul charges wildly and you perform a maneuver. You slide underneath it, twist, hop off it's back lef and impale it's head. Defeated. Inside of it's mangled brain, there's a blue stone. You recognize it to be a Necromancer stone. You grab it and make a staff with it. After that you escape and learn the ways of Necromancy.",
+    "question": "When you landed, the legs of the chair snapped and became sharp. Quickly before the ghoul saw you, you shrugged off the ropes and launched yourself towards the ghoul but got smacked out of the air. Yep, now he's mad. The ghoul charges wildly and you perform a maneuver. You slide underneath it, twist, hop off its back leg and impale its head. Defeated. Inside of its mangled brain, there's a blue stone. You recognize it to be a Necromancer stone. You grab it and make a staff with it. After that you escape and learn the ways of Necromancy.",
     "answers": {
       "FINISH": 121
     }
   },
   {
     "id": 42,
-    "question": "Hastily, you take cover under the pile of bones (Which smells horrific by the way) and Play Dead, hoping he'll leave you. \n\nWhy? Why did you think that would work? \n\nThe Ghoul sniffs you out from the crowd as your 'Fresh Meat' and begins to devour you viciously. You are in complete agony. It's a Shame... You would have made a great Thief...",
+    "question": "Hastily, you take cover under the pile of bones (Which smells horrific by the way) and Play Dead, hoping he'll leave you. \n\nWhy? Why did you think that would work? \n\nThe Ghoul sniffs you out from the crowd as you're 'Fresh Meat' and begins to devour you viciously. You are in complete agony. It's a Shame... You would have made a great Thief...",
     "answers": {
       "RETRY": 0
     }
   },
   {
     "id": 46,
-    "question": "You heed the call and charge galiantly towards the Dragon. With a strong-handed swing, you aim for the neck and slice, but it only cuts so deep, it's gonna take more than one hit. You dash side to side, dodging all frostballs and swings from the Dragon. You get a few more hits in and when you're about half way to decapitation the Dragon catches you with it's wing and drags you towards the edge of the canyon. Before the final powerful hit, your sword is charged with Light, and gains immense strength. The Dragon and it's head tumble off the edge, falling to it's doom. You now make it your goal to fight and conquer all beasts that wish to damage Kragnar.",
+    "question": "You heed the call and charge galiantly towards the Dragon. With a strong-handed swing, you aim for the neck and slice, but it only cuts so deep, it's gonna take more than one hit. You dash side to side, dodging all frostballs and swings from the Dragon. You get a few more hits in and when you're about half way to decapitation the Dragon catches you with its wing and drags you towards the edge of the canyon. Before the final powerful hit, your sword is charged with Light, and gains immense strength. The Dragon and its head tumble off the edge, falling to its doom. You now make it your goal to fight and conquer all beasts that wish to damage Kragnar.",
     "answers": {
       "FINISH": 120
     }
   },
   {
     "id": 47,
-    "question": "The Dragon shoots a large Iceball at you and you return by cutting through it, dashing towards the Dragon and landing on it's head. It begins to swing around, swinging and shaking, biting and gnawing but to no Avail. Eventually, it looks directly up at you and breaths out a trail of ice, but just before it hits you, you turn into smoke and teleport under the Dragon's head, dangling from it's chin. Then you twist the sword directly upwards and through the Dragon's eyeball BACKWARDS! (LIKE A FREAKING BOSS). The Dragon collapses and falls alongside you. When you land you are greeted by happy and celebrating civilians. After that you decide to learn about the teleportation that you performed and how to control your smoke abilities.",
+    "question": "The Dragon shoots a large Iceball at you and you return by cutting through it, dashing towards the Dragon and landing on its head. It begins to swing around, swinging and shaking, biting and gnawing but to no Avail. Eventually, it looks directly up at you and breaths out a trail of ice, but just before it hits you, you turn into smoke and teleport under the Dragon's head, dangling from its chin. Then you twist the sword directly upwards and through the Dragon's eyeball BACKWARDS! (LIKE A FREAKING BOSS). The Dragon collapses and falls alongside you. When you land you are greeted by happy and celebrating civilians. After that you decide to learn about the teleportation that you performed and how to control your smoke abilities.",
     "inventory": {
       "dragonEye": true
     },
@@ -422,7 +422,7 @@ var questionData = [
   },
   {
     "id": 48,
-    "question": "The Dragon sees you and flies up into the air. Unexpected to you, but you begin to fly. Sure you're a bit shaky but your goddamn Flying! Once you get the hang of it, you lift upwards and dodge consistent Frost balls being launched by the Dragon. Next, you charge forwards to the Dragon and aim for it's chest. (Side-bit: What melts ice? Fire!) Randomly, your hands feel a bit warm... then the sword catches a lite and you puncture the Dragon's chest, then fly down and slice open the belly of the beast. Ok, maybe there are Dragon guts splatted all across the ground, but you slayed a Dragon! Later on you study the symptoms that you experienced and learn how to use your powers properly.",
+    "question": "The Dragon sees you and flies up into the air. Unexpected to you, but you begin to fly. Sure you're a bit shaky but you're goddamn Flying! Once you get the hang of it, you lift upwards and dodge consistent Frost balls being launched by the Dragon. Next, you charge forwards to the Dragon and aim for its chest. (Side-bit: What melts ice? Fire!) Randomly, your hands feel a bit warm... then the sword catches a lite and you puncture the Dragon's chest, then fly down and slice open the belly of the beast. Ok, maybe there are Dragon guts splatted all across the ground, but you slayed a Dragon! Later on you study the symptoms that you experienced and learn how to use your powers properly.",
     "answers": {
       "FINISH": 121
     }
@@ -436,14 +436,14 @@ var questionData = [
   },
   {
     "id": 50,
-    "question": "You quickly decide to dash past the Ogre and cramble up the side of it's large club, onto it's arm and on it's back. The Ogre starts swinging to hit you but keeps hitting himself, causing him to keel over. Now's your chance. Jump and FINISH HIM! Axe Blade + Skull = Dead Ogre. You're a wild warrior at heart. You take it as your destiny to serve and protect Kragnar, and you keep the streets safe from intruders, and allow the civilians to rest well at night. There's a hero a bit like that whose obsessed with bats. Can't remember his name though...",
+    "question": "You quickly decide to dash past the Ogre and cramble up the side of its large club, onto its arm and on its back. The Ogre starts swinging to hit you but keeps hitting himself, causing him to keel over. Now's your chance. Jump and FINISH HIM! Axe Blade + Skull = Dead Ogre. You're a wild warrior at heart. You take it as your destiny to serve and protect Kragnar, and you keep the streets safe from intruders, and allow the civilians to rest well at night. There's a hero a bit like that whose obsessed with bats. Can't remember his name though...",
     "answers": {
       "FINISH": 122
     }
   },
   {
     "id": 51,
-    "question": "'HEY YOU BIG GREEN IMBECILE! YEAH YOU!' Your insulting chants grabs his attention and he paces towards you. He's mad. Real mad. He Probably didn't understand what you said but he still doesn't like you. Unfortunately, you've now been pushed to the edge, and he's directly in front of you. Out of random thought, you slam the ground with your axe and the ground around the Ogre cracks, aswell as yours. You shout 'YOU! SHALL NOT! LIVE!', then you push away and your mini rock island floats off and the large cracked rock that the Ogre is on slides and he falls down to his death. You then learn the arts of elemental magic and use it for good.",
+    "question": "'HEY YOU BIG GREEN IMBECILE! YEAH YOU!' Your insulting chants grabs his attention and he paces towards you. He's mad. Real mad. He Probably didn't understand what you said but he still doesn't like you. Unfortunately, you've now been pushed to the edge, and he's directly in front of you. Out of random thought, you slam the ground with your axe and the ground around the Ogre cracks, as well as yours. You shout 'YOU! SHALL NOT! LIVE!', then you push away and your mini rock island floats off and the large cracked rock that the Ogre is on slides and he falls down to his death. You then learn the arts of elemental magic and use it for good.",
     "answers": {
       "FINISH": 121
     }
